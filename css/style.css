@@ -1,0 +1,59 @@
+/* Variáveis para cor. */
+:root {
+    --backgroudcolor: #e9e4bb;
+    --text-color: #1a1c27;
+    --primary-color: #a89907;
+    --hover-color: #1a1c27;
+    --success-click: rgb(46, 244, 6);
+}
+
+/*Título da página*/
+.title_on_page{
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+/* DIV central */
+
+div.central_aplication {
+    background-color: var(--backgroudcolor);
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* Iten on list Style */
+
+.iten_on_list {
+    color: var(--text-color);
+    transition: font 0.5s;
+    list-style: none;
+}
+
+.iten_on_list:hover {
+    color: var(--primary-color);
+    font-size: larger;
+}
+
+/* Button Style */
+
+.button_on_page {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 8px;
+    color: white;
+    transition: background 0.5s;
+    transition: font 0.5s;
+    border-radius: 10px;
+}
+
+.button_on_page:hover {
+    background-color: var(--hover-color);
+    font-size: larger;
+}
+
+.button_on_page:active {
+    background-color: #fff;
+    color: black;
+}

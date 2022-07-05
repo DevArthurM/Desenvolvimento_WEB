@@ -1,0 +1,44 @@
+.App {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+
+.aplication {
+    display: table-cell;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 15%;
+    position:absolute;
+}
+
+.button_class {
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    background-color: #3E0BD4;
+    color: #F70CD3;
+    transition: font 0.8s;
+}
+
+.button_class:hover {
+    font-size: larger;
+    box-shadow: white;
+    background-color: #F70CD3;
+    color: #3E0BD4;
+}
+
+.text_interface {
+    background-color: rgb(0, 0, 0);
+    color: #AD0BD4;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.App{
+    background-color: black;
+}

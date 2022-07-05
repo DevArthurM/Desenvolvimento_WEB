@@ -7,8 +7,8 @@ export default class ChangeMachine extends React.Component {
         
         return (
         <div>
-            <p>{this.props.text}</p>
-            <button onClick={() => this.props.setText('MUDANDO DE ESTADO DENTRO DE UM COMPONENTE')}>COMPONENTE</button>
+            <p className='text_interface'>{this.props.text}</p>
+            <button onClick={() => this.props.setText('MUDANDO DE ESTADO DENTRO DE UM COMPONENTE')} className='button_class'>COMPONENTE</button>
         </div>
         )
     

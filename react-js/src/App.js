@@ -11,8 +11,10 @@ function App() {
 
   return (
     <div className="App">
+      <div className='aplication'>
       <ChangeMachine text={text} setText={setText} type={type} />
-      <button onClick={() => {setText('MUDANDO COMPONENTE DENTRO DO APP')}}>APP PRINCIPAL</button>
+      <button onClick={() => {setText('MUDANDO COMPONENTE DENTRO DO APP')}} className='button_class'>APP PRINCIPAL</button>
+      </div>
     </div >
   );
 }
